@@ -33,6 +33,7 @@ img:hover {
 
 header {
   min-height: 400px;
+  min-width:400px;
   background-color:#1f68b0;
   /*background-image:url("/Users/Charles/Desktop/Homework/jul23/images/seaheaderTEMP.png")*/
 
@@ -66,11 +67,11 @@ header nav {
   top:10px;
   right:10px;
 
-
 }
 
 
 header h1 {
+  min-width:400px;
   width: 100%;
   color:white;
   margin:0;
@@ -347,6 +348,11 @@ nav img {
   top:10px;
   font-family:'oswald';
   text-align:center;
+}
+
+.leftbord {
+  border-left:1px solid gray;
+  padding:15px;
 }
 
 .wavez {
