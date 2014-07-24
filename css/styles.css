@@ -377,8 +377,10 @@ footer {
 }
 
 .img1 {
+  position:relative;
   float:left;
   width:25%;
+  min-width:25%;
   margin:0;
   padding:0;
   background-color:#2e5a7f;
