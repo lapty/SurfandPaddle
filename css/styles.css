@@ -12,6 +12,10 @@ p {
 
 }
 
+.wavez {
+  background-color:#2e5a7f;
+}
+
 h1 {
   position:absolute;
   margin:0;
@@ -26,17 +30,26 @@ h2 {
   }
 
 img {
-  opacity:.5;
+  opacity:.3;
 }
 img:hover {
   opacity:1;
+}
+
+.titlestuff {
+  display:block;
+  width:1420px;
+  height:544px;
+  clear:both;
+  padding:0;
+  margin:0;
+  background-color:#2e5a7f;
 }
 
 header {
   display:inline-block;
   min-height: 400px;
   min-width:100%;
-  background-color:#1f68b0;
   /*background-image:url("/Users/Charles/Desktop/Homework/jul23/images/seaheaderTEMP.png")*/
 
 }
@@ -49,13 +62,28 @@ header {
 
 }
 
+.title h1 {
+  min-width:400px;
+  width: 100%;
+  color:white;
+  margin:0;
+  font-weight:lighter;
+  text-shadow:black 1px 1px;
+  text-align:center;
+  top:210px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 7em;
+
+  font-family:"MyriadPro-Regular";
+}
+
 header nav {
   position:absolute;
   top:10px;
-  right:10px;
+  right:10px;*/
 
 }
-
 
 header h1 {
   min-width:400px;
@@ -104,15 +132,25 @@ nav li:hover {
 
 .topbar {
   position:absolute;
+  display:inline-block;
+  width:300px;
   font-family:'oswald';
   top:20px;
   right:200px;
   color:#083452;
 }
 
+.topleftside {
+  position:absolute;
+  display:inline-block;
+  width:500px;
+  opacity:1;
+  right:480px;
+}
+
 
 .waves {
-  opacity:.5;
+  opacity:.7;
 }
 
 .container {
@@ -200,7 +238,7 @@ footer {
   position:relative;
   display:inline-block;
   width: 100%;
-  vertical-align:bottom;
+  position:center;
 }
 
 .footernav {
@@ -254,7 +292,7 @@ footer {
   color:#106db3;
   display:block;
   width:300px;
-  margin:2;
+  margin:0;
   bottom:200px;
   text-align:center;
 }
@@ -295,9 +333,5 @@ footer {
   min-width:25%;
   margin:0;
   padding:0;
-  background-color:#2e5a7f;
-}
-
-.wavez {
   background-color:#2e5a7f;
 }
