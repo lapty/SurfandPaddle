@@ -3,6 +3,15 @@
   src: local("MyriadPro-Regular.otf")
 }
 
+body {
+  margin:0;
+
+}
+
+footer {
+  margin:0;
+}
+
 p {
   font-family:sans-serif;
   color:black;
