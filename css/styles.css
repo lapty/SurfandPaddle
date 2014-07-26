@@ -8,13 +8,9 @@ body {
 
 }
 
-footer {
-  margin:0;
-}
 
 p {
   font-family:sans-serif;
-  color:black;
   font-weight:lighter;
   color:#7e868c;
   line-height:29px;
@@ -39,7 +35,7 @@ h2 {
   }
 
 img {
-  opacity:.3;
+  opacity:.1;
 }
 img:hover {
   opacity:1;
@@ -244,15 +240,18 @@ li {
 }
 
 footer {
-  position:relative;
+  position:absolute;
   display:inline-block;
-  width: 100%;
+  margin:0;
+  padding:0;
+  width: 101%;
   position:center;
 }
 
 .footernav {
   padding:0px;
   width:100%;
+  margin:0;
   background-color:#083452;
   display:block;
   position:relative;
@@ -290,7 +289,7 @@ footer {
 }
 
 
-.bott {
+.poppost {
   text-align:center;
   font-family:"oswald";
 
@@ -335,6 +334,7 @@ footer {
 
 }
 
+
 .img1 {
   position:relative;
   float:left;
@@ -343,4 +343,24 @@ footer {
   margin:0;
   padding:0;
   background-color:#2e5a7f;
+}
+
+.img1:hover {
+  color:white;
+}
+
+.img1 h2 {
+  font-family:'oswald';
+  font-size:1.7em;
+  color:#083452;
+  position: absolute;
+  bottom:1px;
+  width:90%;
+  margin-top:10px;
+  padding:10px;
+}
+
+.img1 h2:hover {
+  color:white;
+  background:none
 }
