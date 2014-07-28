@@ -1,0 +1,492 @@
+$overlaycolor: #2e5a7f;
+$headingcolor: #083452;
+$headingfont: "MyriadPro-regular";
+
+
+
+@font-face {
+  src: local("MyriadPro-Regular.otf");
+}
+
+body {
+  clear:both;
+  margin:0px;
+  padding:0px;
+}
+
+
+
+p {
+  font-family:sans-serif;
+  font-weight:lighter;
+  color:#7e868c;
+  line-height:29px;
+
+}
+
+.headerbox {
+  display:block;
+  position:relative;
+  width:100%;
+  height:503px;
+  margin:0px;
+  padding:0px;
+  background-color:$overlaycolor;
+}
+
+.headerbox img {
+  width:100%;
+  height:503px;
+  margin:0px;
+  padding:0;
+}
+
+h1 {
+  display:block;
+  position:absolute;
+  margin:0;
+  top:220px;
+  width:100%;
+  font-size:7em;
+  color:white;
+  text-align:center;
+  font-weight:lighter;
+  font-family:'MyriadPro-Regular';
+  text-shadow:gray 2px 2px;
+}
+
+.topleft {
+  display:block;
+  position:absolute;
+  top:4%;
+  left:10%;
+  font-size:1.5em;
+  color:$headingcolor;
+  font-color:$headingcolor;
+  font-family:$headingfont;
+}
+
+.topleft img {
+  opacity:1;
+}
+
+.topright nav {
+  display:block;
+  position:absolute;
+  right:10%;
+  top:4%;
+  opacity:1;
+  font-family:$headingfont;
+}
+
+.topright img {
+  opacity:1;
+}
+
+.subtitle {
+  display:block;
+  position:absolute;
+  width:100%;
+  top:320px;
+  color:$headingcolor;
+  text-align:center;
+  margin:0;
+  font-size:1.2em;
+}
+
+h2 {
+  color:$headingcolor;
+  font-size:3em;
+  font-family:'oswald';
+
+  }
+
+img {
+  opacity:.2;
+}
+img:hover {
+  opacity:1;
+}
+
+
+.post {
+  top:0px;
+  left:15%;
+  width:80%;
+  position:relative;
+
+}
+
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  list-style-type:none;
+
+}
+
+nav li {
+  display:inline-block;
+  margin-left:10px;
+  padding:0px;
+  font-size: 1.25em;
+
+
+
+}
+
+
+nav a {
+  color: $headingcolor;
+  text-decoration: none;
+
+}
+
+nav li:hover {
+  background-color: gray;
+
+}
+
+.topbar {
+  position:absolute;
+  display:inline-block;
+  width:300px;
+  font-family:'oswald';
+  top:20px;
+  right:200px;
+  color:$headingcolor;
+}
+
+.topleftside {
+  position:absolute;
+  display:inline-block;
+  width:500px;
+  opacity:1;
+  right:480px;
+}
+
+
+.waves {
+  opacity:.7;
+}
+
+.container {
+  display:inline-block;
+  position:relative;
+  padding:0;
+  margin:0;
+  width:100%;
+}
+
+section {
+  vertical-align:top;
+  width:60%;
+  margin: 0;
+  padding: 0;
+  display:inline-block;
+}
+
+
+aside {
+  position:relative;
+  width:23%;
+  margin:0;
+  padding-top:10%;
+  padding-left:10px;
+  display:inline-block;
+
+}
+
+.circle {
+  text-align:center;
+  width:100px;
+  height:100px;
+  margin:0px;
+  border-radius:100%;
+  background-color:#1f68b0;
+}
+
+.sidebar {
+  display:inline-block;
+  vertical-align:top;
+  margin:0px;
+  width:25%
+}
+
+.box {
+  display:inline-block;
+  position:relative;
+  margin:0;
+  width:100%;
+  padding:0px;
+
+}
+
+.box h3 {
+  font-size: 1.2em;
+
+}
+
+.box2 {
+  color:#106db3;
+  position:relative;
+  font-family:'oswald';
+  display:inline-block;
+}
+
+.box2 p {
+  opacity:.7;
+}
+
+footer {
+  position:relative;
+  display:block;
+  margin:0px;
+  padding:0px;
+  width: 100%;
+  background-color:$headingcolor;
+}
+
+footer ul {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+
+/*REMOVE THOSE BULLETS UNIVERSALLY*/
+li {
+  list-style-type:none;
+}
+
+
+
+.footernav {
+  padding:0px;
+  width:60%;
+  margin:0px;
+  display:inline-block;
+  position:relative;
+}
+
+.rights {
+  font-family:$headingfont;
+  color:#9aacb9;
+}
+
+.footernav ul {
+  vertical-align:top;
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family:"$headingfont";
+  color:#9aacb9;
+  font-size:14px;
+}
+
+.footernav a {
+  font-family:"$headingfont";
+  color:#9aacb9;
+  font-size:14px;
+}
+
+.bottomleft {
+  display:inline-block;
+  width:40%;
+  vertical-align:top;
+  margin:15px;
+  margin-left:39px;
+  position:relative;
+
+}
+
+.bottomright {
+  display:inline-block;
+  width:47%;
+  margin-top:43px;
+  margin-left:77px;
+  vertical-align:top;
+}
+
+
+.poppost {
+  text-align:center;
+  font-family:"oswald";
+
+}
+
+
+.anneco {
+  color:#106db3;
+  display:block;
+  width:300px;
+  margin:0;
+  margin-left:12%;
+}
+
+.socialbar {
+  color:#106db3;
+  top:10px;
+  font-family:'oswald';
+  text-align:center;
+  margin:0;
+}
+
+.socialbar a {
+  color:#7e868c;
+  margin:0;
+  top:10px;
+  font-family:'oswald';
+  text-align:center;
+}
+
+.leftbord {
+  border-left:1px solid gray;
+  padding:15px;
+}
+
+.imagenav {
+  margin:0;
+  padding:0;
+}
+
+.grid {
+  display:inline-block;
+  position:relative;
+  width:100%;
+  margin:0px;
+  padding:0px;
+
+}
+
+.img1 {
+  position:relative;
+  float:left;
+  width:25%;
+  margin:0;
+  padding:0;
+  background-color:$overlaycolor;
+}
+
+
+.img1 h2 {
+  font-family:'oswald';
+  font-size:1.7em;
+  color:$headingcolor;
+  position: absolute;
+  bottom:1px;
+  width:100%;
+  margin-top:10px;
+  padding:10px;
+}
+
+.wavez {
+  background-color:$overlaycolor;
+  width:100%;
+}
+
+.grid:hover {
+  color:white;
+}
+
+.img1 h2:hover {
+  color:white;
+  background:none;
+}
+
+.opaque {
+  opacity:1;
+}
+
+
+
+@media all and (max-width:320px) {
+  h1 {
+    font-size:2.1em;
+    width:100%;
+    margin:0;
+    top:160px;
+    text-align:center;
+  }
+
+  .subtitle {
+    font-size:.8em;
+    top:190px;
+    font-weight:bold;
+  }
+  h2 {
+    font-size:2.4em;
+  }
+  .img1 {
+    width:310px;
+    margin-top:15px;
+    margin:15px;
+  }
+  .box src {
+    width:310px;
+  }
+  .box {
+    margin:1px;
+  }
+  .box2 {
+    margin:5%;
+  }
+  section {
+    width:100%;
+  }
+  .container {
+    width:320px;
+  }
+  aside {
+    width:100%;
+  }
+  .headerbox {
+    text-align:center;
+    top:1px;
+    width:330px;
+    height:230px;
+
+  }
+  .headerbox img {
+    height:230px;
+    width:330px;
+  }
+  .topleft {
+    display:absolute;
+    top:80px;
+    left:100px;
+  }
+  .topleft span{
+    display:none;
+  }
+  .topright {
+    font-size:1em;
+  }
+  .post {
+    left:15px;
+  }
+  .smallhead {
+    display:none;
+  }
+  .smallname {
+    display:none;
+  }
+  .sidebarpic {
+    width:320px;
+  }
+  .bottomleft {
+    top:76px;
+    width:77%;
+  }
+  .bottomleft span {
+    width:100%;
+  }
+  .footernav {
+    top:-165px;
+    width:250px;
+    right:71px;
+  }
+  footer {
+    width:100%;
+  }
+}
