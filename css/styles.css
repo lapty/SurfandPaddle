@@ -56,7 +56,7 @@ h1 {
 .topright nav {
   display: block;
   position: absolute;
-  right: 10%;
+  right: 17%;
   top: 4%;
   opacity: 1;
   font-family: "MyriadPro-regular"; }
@@ -190,7 +190,8 @@ footer {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  background-color: #083452; }
+  background-color: #083452;
+  background-size: cover; }
 
 footer ul {
   margin-top: 0px;
@@ -249,7 +250,7 @@ li {
   display: block;
   width: 300px;
   margin: 0;
-  margin-left: 12%; }
+  margin-left: 17%; }
 
 .socialbar {
   color: #106db3;
@@ -352,7 +353,7 @@ li {
   .topleft {
     display: absolute;
     top: 80px;
-    left: 100px; }
+    left: 122px; }
   .topleft span {
     display: none; }
   .topright {

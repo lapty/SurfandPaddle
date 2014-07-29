@@ -73,7 +73,7 @@ h1 {
 .topright nav {
   display:block;
   position:absolute;
-  right:10%;
+  right:17%;
   top:4%;
   opacity:1;
   font-family:$headingfont;
@@ -246,6 +246,7 @@ footer {
   padding:0px;
   width: 100%;
   background-color:$headingcolor;
+  background-size:cover;
 }
 
 footer ul {
@@ -321,7 +322,7 @@ li {
   display:block;
   width:300px;
   margin:0;
-  margin-left:12%;
+  margin-left:17%;
 }
 
 .socialbar {
@@ -454,7 +455,7 @@ li {
   .topleft {
     display:absolute;
     top:80px;
-    left:100px;
+    left:122px;
   }
   .topleft span{
     display:none;
